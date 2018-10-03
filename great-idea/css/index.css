@@ -63,4 +63,151 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox
+   Student Notes: I decided to re-do the code from scratch here.
+*/
+* {
+	box-sizing: border-box;
+  }
+
+/* General Style */
+.container {
+	max-width: 884px;
+	margin: 0 auto;
+}
+
+.container .topList {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.container .topList a {
+	color: #999;
+}
+
+/* home page Style */
+.home .header {
+	display: flex;
+}
+
+.home .header .heading-wrapper {
+	display: flex;
+	width: 49.8%;
+	height: 500px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.home .header .heading-wrapper h1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 72px;
+}
+
+.home .header .heading-wrapper .btnGettingStarted {
+	text-decoration: none;
+	color: inherit;
+	padding: 8px 40px;
+	border: 1px solid black;
+}
+
+.home .header .headerImage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home .top-section {
+	display: flex;
+	max-width: 100%;
+	margin: 30px 0;
+}
+
+.home .bottom-section {
+	display: flex;
+	max-width: 100%;
+	justify-content: space-between;
+}
+
+.home .bottom-section article {
+	width: 32%;
+}
+
+.home .contact-section {
+	margin: 30px 0;
+}
+
+/* services page Style */
+
+.services-header-img {
+	max-width: 100%;
+
+}
+
+.services .servicesHeader {
+	margin: 30px 0;
+}
+
+.services .sectionCards {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.services section .cards {
+	display: flex;
+	border: 1px solid black;
+	max-width: 48%;
+	padding: 25px;
+	margin: 20px 0;
+	background-color: #f4f3f4;
+	flex-direction: column;
+}
+
+.services .sectionCards .btnLearnMore {
+	border: 1px solid black;
+	border-radius: 5px;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	display: flex;
+	max-width: 35%;
+	margin-top: 10px;
+	padding: 10px;
+	justify-content: center;
+	align-content: center;
+}
+
+.services .sectionServiceFacts {
+	display: flex;
+	border-top: 2px solid black;
+	padding: 30px 0;
+	justify-content: space-around;
+	
+}
+
+.services .sectionServiceFacts nav {
+	border: 1px solid red;
+	display: flex;
+	flex-flow: column wrap;
+	max-width: 45%;
+}
+
+.services .sectionServiceFacts nav ul {
+	border: 1px solid red;
+	display: flex;
+	flex-flow: column wrap;
+	max-width: 45%;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-bottom: 30px;
+}
