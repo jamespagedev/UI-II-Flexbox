@@ -187,27 +187,32 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	border-top: 2px solid black;
 	padding: 30px 0;
-	justify-content: space-around;
+	justify-content: space-between;
 	
 }
 
 .services .sectionServiceFacts nav {
-	border: 1px solid red;
 	display: flex;
 	flex-flow: column wrap;
 	max-width: 45%;
 }
 
 .services .sectionServiceFacts nav ul {
-	border: 1px solid red;
+	margin: 30px 0;
 	display: flex;
 	flex-flow: column wrap;
-	max-width: 45%;
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 2;
+}
+
+.services .sectionServiceFacts .services-info-img {
+	width: 47.9%;
 }
 
 footer {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	margin-bottom: 30px;
+	margin: 30px 0;
 }
